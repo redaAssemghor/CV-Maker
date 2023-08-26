@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    border: 2px solid black;
+    padding: 50px;
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+}
+
+.infoForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.infoForm input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 195, 255);
+    transition: ease-in-out, border-bottom .35s ease-in-out;
+}
+
+.infoForm input:focus {
+    outline: none;
+    border-bottom: 10px solid rgb(0, 195, 255);
+}
+
+.expForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.expForm input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 195, 255);
+    transition: ease-in-out, border-bottom .35s ease-in-out;
+}
+
+.expForm input:focus {
+    outline: none;
+    border-bottom: 10px solid rgb(0, 195, 255);
+}
+
+.expForm textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 195, 255);
+    transition: ease-in-out, border-bottom .35s ease-in-out;
+}
+
+.expForm textarea:focus {
+    outline: none;
+    border-bottom: 10px solid rgb(0, 195, 255);
+}
+
+.eduForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    padding-left: 50px;
+    margin: 20px;
+}
+
+.eduForm input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 195, 255);
+    transition: ease-in-out, border-bottom .35s ease-in-out;
+}
+
+.eduForm input:focus {
+    outline: none;
+    border-bottom: 10px solid rgb(0, 195, 255);
+}
+
+.button {
+    display: block;
+    padding: 5px 50px;
+    margin: 10px;
+    background-color: greenyellow;
+}
+
+h1{
+    border-bottom: 1px solid grey;
+}
+
+p {
+    margin-left: 30px;
+}
